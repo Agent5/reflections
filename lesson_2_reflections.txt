@@ -1,0 +1,7 @@
+1Q) What happens when you initialize a repository? Why do you need to do it?
+
+1A) It initializes a repository by creating a .git file and begins tracking what has and hasn't been added to it.
+
+2Q) How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+2A) The staging area is different from the working directory in that it only contains the files that will be commited. It is different from the repository because it contains the changes that will be made to the repository on the next commit. The repository itself contains "old" code. The value is that this style of commiting 
