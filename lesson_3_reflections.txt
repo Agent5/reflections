@@ -2,6 +2,6 @@
 
 1A) When working from another computer or when collaborating with someone else.
 
-2Q) 
+2Q) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-2A) 
+2A) Because Git will not know which branch I'd like to pull or whether the branch being pulled is "ready" to incorporate with my code.
