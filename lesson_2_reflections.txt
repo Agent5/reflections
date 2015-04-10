@@ -5,3 +5,23 @@
 2Q) How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 2A) The staging area is different from the working directory in that it only contains the files that will be commited. It is different from the repository because it contains the changes that will be made to the repository on the next commit. The repository itself contains "old" code. The value is that this style of commiting 
+
+3Q) How can you use the staging area to make sure you have one commit per logical change?
+
+3A) I use the staging area to commit logical changes by staging all files related to the logical change individually and then commiting them as a group. I feel I'm misreading this question somehow. I guess I don't know how I use the staging area to make sure I have one commit per logical change.
+
+4Q) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+4A) When I want to design a new feature, when I want to redesign a site, when I want to upgrade the dependent packages. Branches would help tremendously because none of my working code will lbe at risk and I'm able to keep developing the master branch as well the newly forked branch.
+
+5Q) How do the diagrams help you visualize the branch structure?
+
+5A) It's helpful to actually see branches diverging when trying to understand branch relationships.
+
+6Q) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+6A) The result of merging the branches is that all of the code from those branches and their commit history is now merged into one branch. This could mean that we've incorporated a new feature such as orange coins. We represent it the way we do because it's visually accurate. The new merged branch will have parentage from both of the former branches.
+
+7Q) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+7A) I can't think of any cons with the way git does this. 
