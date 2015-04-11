@@ -25,3 +25,7 @@
 7Q) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
 7A) I can't think of any cons with the way git does this. 
+
+8Q) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+8A) Without using Github I'd probably collaborate through Dropbox and Trello. It'd be tough we'd need some system to communicate changes more easily and without the ability to branch and merge making changes would feel dangerous.
