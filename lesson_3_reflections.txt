@@ -12,4 +12,8 @@
 
 4Q) What is the benefit of having a copy of the last known state of the remote stored locally?
 
-4A) It benefits me so that I don't get too far behind if I suspect I may need to be offline for a while. It's also advantageous because I can 'sync up' with my team by checking the last known state of the remote, assuming I update this state from time to time. This is particularly important because in a larger group merges to master would presumably happen all the time. 
+4A) It benefits me so that I don't get too far behind if I suspect I may need to be offline for a while. It's also advantageous because I can 'sync up' with my team by checking the last known state of the remote, assuming I update this state from time to time. This is particularly important because in a larger group merges to master would presumably happen all the time.
+
+5Q) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+5A) I want to make changes in a separate branch when collaborating for sure. In fact I think it's probably a good idea to branch from master to make logical changes (maybe not corrections) anyway. 
